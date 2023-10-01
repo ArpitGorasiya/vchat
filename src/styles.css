@@ -1,16 +1,46 @@
 body {
-    background:
+  /* background:
     linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.3)
     ),
-    url(https://i.pinimg.com/originals/8f/14/57/8f14578ef69a4c53352955d1e072eda6.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    url(https://i.pinimg.com/originals/8f/14/57/8f14578ef69a4c53352955d1e072eda6.png); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.gridContainer {
+  width: '100%'
+}
+
+.container {
+  width: 600px;
+  /* margin: 35px 0; */
+  padding: 0,
+
+}
+
+.margin {
+  /* margin-top: 80px; */
+}
+
+.padding {
+  /* padding: 20, */
+}
+
+.paper {
+  /* padding: 10px 20px; */
+  border: '2px solid black';
 }
